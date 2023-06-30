@@ -12,7 +12,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import {createStackNavigator}from '@react-navigation/stack'
 
 function Forgot({ navigation }) {
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState('email');
   const onPress = () => {
     console.log(email, 'email');
   };
